@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Mein Notizblock</title>
+    <script src="NewNotesApp.js"></script>
+    <link rel="stylesheet" href="NewNotesApp.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body onload="render()">
+    <!-- ERSTE DISPLAY: HIER WIRD DIE NOTIZ GESCHRIEBEN -->
+    <div class="mobilphone">
+        <div class="iphoneMockUp">
+            <div class="display">
+                <div class="nodge" id="editNote"></div>
+                    <input class="inputfield" type="text" placeholder="Title..." id="title">
+                    <textarea class="textarea" name="text" placeholder="Schreibe hier deine Notiz..." id="note"
+                        cols="30" rows="10"></textarea>
+                    <button onclick="addNote()" class="icon__save__note"><img class="icon__save" src="icons/save 2.png"
+                            alt=""></button>
+                </div>
+        </div>
+
+        <!-- ZWEITE DISPLAY: MEINE NOTIZEN & PAPIERKORB -->
+        <div class="iphoneMockUp2">
+            <div class="display2">
+                <div class="nodge2"></div>
+                <div class="navbar">
+                    <button class="nav__item" onclick="render()" title="Notizen" id="countNotes">Notizen 0</button>
+                    <button class="nav__item" onclick="renderTrash()" title="Papierkorb" id="countTrash">Papierkorb 0</button>
+                </div>
+                <!-- CONTENT KOMMT HIER REIN-->
+                <div class="content" id="content"></div>
+                <!-- ERSTE DARSTELLUNG DER CONTENT BOX -->
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

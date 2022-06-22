@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mobilphone {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/************** DISPLAY NUMMER 1 *****************/
+.iphoneMockUp {
+    margin-top: 70px;
+    margin-left: 70px;
+    width: 400px;
+    height: 770px;
+    background: #fff;
+    border-radius: 35px;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, .2), 0 40px 100px rgba(0, 0, 0, .4);
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 370px;
+    height: 740px;
+    background: #262626;
+    border-radius: 25px;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, .2),
+}
+
+.nodge {
+    margin-left: 120px;
+    width: 130px;
+    height: 20px;
+    background: black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/************** NOTIZ SCHREIBEN *****************/
+.inputfield {
+    width: 354px;
+    background-color: #262626;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 24px;
+    resize: none;
+    margin-left: 16px;
+    margin-top: 32px;
+}
+
+.textarea {
+    display: flex;
+    width: 354px;
+    background-color: #262626;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    resize: none;
+    margin-left: 16px;
+    margin-top: 24px;
+}
+
+.icon__save__note {
+    padding: 6px;
+    margin-top: 340px;
+    margin-left: 161px;
+    width: 48px;
+    height: 48px;
+    border: none;
+    background-color: #262626;
+    display: flex;
+}
+
+.icon__save {
+    width: 48px;
+    height: 48px;
+}
+
+.icon__save:hover {
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: white;
+    background-color: darkgrey;
+}
+
+/************** DISPLAY NUMMER 2 *****************/
+.iphoneMockUp2 {
+    margin-top: 70px;
+    margin-right: 70px;
+    width: 400px;
+    height: 770px;
+    background: #fff;
+    border-radius: 35px;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, .2), 0 40px 100px rgba(0, 0, 0, .4);
+}
+
+.display2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 370px;
+    height: 740px;
+    background: #262626;
+    border-radius: 25px;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, .2),
+}
+
+.nodge2 {
+    display: flex;
+    margin-left: 120px;
+    width: 130px;
+    height: 20px;
+    background: black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.nav__item {
+    font-family: 'Poppins';
+    font-size: medium;
+    font-weight: 600;
+}
+
+.content__items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 14px;
+    border-radius: 12px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(180, 180, 180);
+    width: 340px;
+    height: 120px;
+}
+
+.items__header {
+    display: flex;
+    flex-direction: column;
+    color: rgb(180, 180, 180);
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.items__btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btn__option {
+    background-color: #262626;
+    border: none;
+    margin-right: 10px;
+}
+
+.icon {
+    background-color: #262626;
+    width: 24px;
+    height: 24px;
+}
+
+.content {
+    overflow-y: hidden;
+    overflow: auto;
+}
+
+
+@media(max-width: 950px){
+    .mobilphone {
+        display: flex;
+    flex-direction: column;
+    }
+
+    .iphoneMockUp2 {
+        margin-top: 70px;
+        margin-left: 70px;
+        width: 400px;
+        height: 770px;
+        background: #fff;
+        border-radius: 35px;
+        box-shadow: inset 0 0 15px rgba(0, 0, 0, .2), 0 40px 100px rgba(0, 0, 0, .4);
+    }
+}
